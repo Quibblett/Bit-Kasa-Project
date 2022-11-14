@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== İKONLAR ===============-->
+    <link rel="shortcut icon" href="resimler/favicon.png" type="image/x-icon" />
+
+    <!--=============== İKONLAR2 ===============-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>BitKasa - Atakan Seren</title>
+  </head>
+  <body>
+    <!--==================== BAŞLIK ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">
+          BitKasa
+        </a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#" class="nav__link active-link">Ana Menü</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">Piyasalar</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">BitKasa İndir</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">Hakkımızda</a>
+            </li>
+          </ul>
+
+          <!-- Kapatma Tuşu-->
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-line"></i>
+          </div>
+          <img
+            src="resimler/ethereum-img.png"
+            alt="nav image"
+            class="nav__img"
+          />
+        </div>
+
+        <!-- menu butonu -->
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="ri-menu-4-line"></i>
+        </div>
+      </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== ANAMENÜ ====================-->
+      <section class="home">
+        <div class="home__shape-small"></div>
+        <div class="home__shape-big-1"></div>
+        <div class="home__shape-big-2"></div>
+        <image
+          src="resimler/shape-bg.png"
+          alt=""
+          class="home__shape-bg"
+        ></image>
+
+        <div class="home__container container">
+          <div class="home__info">
+            <h1 class="home__title">
+              <span class="">
+                Keşfet
+              </span>
+              <br />
+              Türk Lirası ile, Alım-Satım Yapın.
+            </h1>
+            <p class="home__description">
+              BTC, ETH, LTC, DOGE, Altcoinler, Stablecoinler ve Platform
+              Tokenları dahil olmak üzere 100'den fazla kripto para biriminde
+              işlem yapın
+            </p>
+            <a href="#" class="home__button">Şimdi Başla</a>
+          </div>
+          <div class="home__group">
+            <div class="home__images">
+              <div class="home__img-eth">
+                <img
+                  src="resimler/ethereum-img.png"
+                  alt="home image"
+                  class=""
+                />
+              </div>
+              <div class="home__img-orbe">
+                <img src="resimler/orbe-img.png" alt="home image" class="" />
+              </div>
+            </div>
+
+            <div class="home__data">
+              <div>
+                <h2 class="home__data-number">100+</h2>
+                <span class="home__data-subtitle">Coin</span>
+              </div>
+              <div>
+                <h2 class="home__data-number">20+</h2>
+                <span class="home__data-subtitle">Piyasa</span>
+              </div>
+              <div>
+                <h2 class="home__data-number">255</h2>
+                <span class="home__data-subtitle">Kullanıcı</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="home__footer">
+            <div>
+              <span class="home__footer-title">Güncel Fiyat</span>
+              <h3 class="home__footer-number">1 ETH</h3>
+              <span class="home__footer-subtitle">23.428,98 TL</span>
+            </div>
+
+            <div>
+              <span class="home__footer-title">Canlı Saat</span>
+
+              <div class="home__footer-time">
+                <div class="home__footer-counter">
+                  <h3 class="home__footer-number">13</h3>
+                  <span class="home__footer-subtitle">Saat</span>
+                </div>
+
+                <div class="home__footer-counter">
+                  <h3 class="home__footer-number">45</h3>
+                  <span class="home__footer-subtitle">Dakika</span>
+                </div>
+
+                <div class="home__footer-counter">
+                  <h3 class="home__footer-number">58</h3>
+                  <span class="home__footer-subtitle">Saniye</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--=============== KAYDIRMA ===============-->
+    <script src="scrollreveal.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="/main.js"></script>
+  </body>
+</html>
